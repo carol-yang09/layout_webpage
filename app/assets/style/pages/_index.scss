@@ -1,0 +1,17 @@
+.banner {
+  background: url('../images/banner.png') center no-repeat;
+  background-size: cover;
+  min-height: 958px;
+}
+
+.work-item {
+  &:before {
+    content: "";
+    display: inline-block;
+    margin-right: 16px;
+    width: 22px;
+    height: 22px;
+    background-color: $danger;
+    border-radius: 50%;
+  }
+}
